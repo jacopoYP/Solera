@@ -329,7 +329,6 @@
 				TargetAttributes = {
 					EA85A91E1C90CCA000F40889 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = QP297Z35MZ;
 					};
 					EA85A9371C90CCA000F40889 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -553,7 +552,7 @@
 				INFOPLIST_FILE = Solera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.youpers.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solera.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -568,7 +567,7 @@
 				INFOPLIST_FILE = Solera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.youpers.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solera.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -659,6 +658,7 @@
 				EAF607A21C98AF18009C249A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
