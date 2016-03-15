@@ -18,15 +18,15 @@
 		EAAAC0011C94011E003C52AA /* CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAAC0001C94011E003C52AA /* CheckoutViewController.m */; };
 		EABD3E841C98848D00E3A8DE /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD3E801C98848D00E3A8DE /* Utils.m */; };
 		EABD3E851C98848D00E3A8DE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD3E831C98848D00E3A8DE /* Reachability.m */; };
-		EACDCFA91C91E2C80073F2B5 /* solera_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFA81C91E2C80073F2B5 /* solera_logo@2x.png */; };
 		EACDCFAC1C91E3690073F2B5 /* BasketCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACDCFAB1C91E3690073F2B5 /* BasketCaseViewController.m */; };
 		EACDCFAF1C91E6610073F2B5 /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFAE1C91E6610073F2B5 /* items.json */; };
 		EACDCFBA1C9207860073F2B5 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = EACDCFB91C9207860073F2B5 /* Item.m */; };
-		EACDCFC21C9219CC0073F2B5 /* peas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFBE1C9219CC0073F2B5 /* peas@2x.png */; };
-		EACDCFC31C9219CC0073F2B5 /* milk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFBF1C9219CC0073F2B5 /* milk@2x.png */; };
-		EACDCFC41C9219CC0073F2B5 /* eggs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFC01C9219CC0073F2B5 /* eggs@2x.png */; };
-		EACDCFC51C9219CC0073F2B5 /* beans@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFC11C9219CC0073F2B5 /* beans@2x.png */; };
 		EAF6079D1C98AF18009C249A /* SoleraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF6079C1C98AF18009C249A /* SoleraUITests.m */; };
+		EAF607A91C98B653009C249A /* milk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF607A41C98B653009C249A /* milk@2x.png */; };
+		EAF607AA1C98B653009C249A /* beans@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF607A51C98B653009C249A /* beans@2x.png */; };
+		EAF607AB1C98B653009C249A /* peas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF607A61C98B653009C249A /* peas@2x.png */; };
+		EAF607AC1C98B653009C249A /* eggs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF607A71C98B653009C249A /* eggs@2x.png */; };
+		EAF607AD1C98B653009C249A /* solera_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF607A81C98B653009C249A /* solera_logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,20 +68,20 @@
 		EABD3E811C98848D00E3A8DE /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		EABD3E821C98848D00E3A8DE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		EABD3E831C98848D00E3A8DE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		EACDCFA81C91E2C80073F2B5 /* solera_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "solera_logo@2x.png"; path = "Images/solera_logo@2x.png"; sourceTree = "<group>"; };
 		EACDCFAA1C91E3690073F2B5 /* BasketCaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketCaseViewController.h; path = ViewControllers/BasketCaseViewController.h; sourceTree = "<group>"; };
 		EACDCFAB1C91E3690073F2B5 /* BasketCaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketCaseViewController.m; path = ViewControllers/BasketCaseViewController.m; sourceTree = "<group>"; };
 		EACDCFAE1C91E6610073F2B5 /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = items.json; path = Data/items.json; sourceTree = "<group>"; };
 		EACDCFB01C91E68E0073F2B5 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
 		EACDCFB81C9207860073F2B5 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = Models/Item.h; sourceTree = "<group>"; };
 		EACDCFB91C9207860073F2B5 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = Models/Item.m; sourceTree = "<group>"; };
-		EACDCFBE1C9219CC0073F2B5 /* peas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "peas@2x.png"; path = "Images/peas@2x.png"; sourceTree = "<group>"; };
-		EACDCFBF1C9219CC0073F2B5 /* milk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "milk@2x.png"; path = "Images/milk@2x.png"; sourceTree = "<group>"; };
-		EACDCFC01C9219CC0073F2B5 /* eggs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eggs@2x.png"; path = "Images/eggs@2x.png"; sourceTree = "<group>"; };
-		EACDCFC11C9219CC0073F2B5 /* beans@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "beans@2x.png"; path = "Images/beans@2x.png"; sourceTree = "<group>"; };
 		EAF6079A1C98AF18009C249A /* SoleraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF6079C1C98AF18009C249A /* SoleraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoleraUITests.m; sourceTree = "<group>"; };
 		EAF6079E1C98AF18009C249A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF607A41C98B653009C249A /* milk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "milk@2x.png"; path = "Images/milk@2x.png"; sourceTree = "<group>"; };
+		EAF607A51C98B653009C249A /* beans@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "beans@2x.png"; path = "Images/beans@2x.png"; sourceTree = "<group>"; };
+		EAF607A61C98B653009C249A /* peas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "peas@2x.png"; path = "Images/peas@2x.png"; sourceTree = "<group>"; };
+		EAF607A71C98B653009C249A /* eggs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eggs@2x.png"; path = "Images/eggs@2x.png"; sourceTree = "<group>"; };
+		EAF607A81C98B653009C249A /* solera_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "solera_logo@2x.png"; path = "Images/solera_logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,11 +227,11 @@
 		EACDCFA51C91E2060073F2B5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				EACDCFBE1C9219CC0073F2B5 /* peas@2x.png */,
-				EACDCFBF1C9219CC0073F2B5 /* milk@2x.png */,
-				EACDCFC01C9219CC0073F2B5 /* eggs@2x.png */,
-				EACDCFC11C9219CC0073F2B5 /* beans@2x.png */,
-				EACDCFA81C91E2C80073F2B5 /* solera_logo@2x.png */,
+				EAF607A41C98B653009C249A /* milk@2x.png */,
+				EAF607A51C98B653009C249A /* beans@2x.png */,
+				EAF607A61C98B653009C249A /* peas@2x.png */,
+				EAF607A71C98B653009C249A /* eggs@2x.png */,
+				EAF607A81C98B653009C249A /* solera_logo@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -366,15 +366,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF607AD1C98B653009C249A /* solera_logo@2x.png in Resources */,
 				EA85A9321C90CCA000F40889 /* LaunchScreen.storyboard in Resources */,
-				EACDCFC31C9219CC0073F2B5 /* milk@2x.png in Resources */,
-				EACDCFA91C91E2C80073F2B5 /* solera_logo@2x.png in Resources */,
 				EACDCFAF1C91E6610073F2B5 /* items.json in Resources */,
+				EAF607AB1C98B653009C249A /* peas@2x.png in Resources */,
 				EA85A92F1C90CCA000F40889 /* Assets.xcassets in Resources */,
+				EAF607A91C98B653009C249A /* milk@2x.png in Resources */,
+				EAF607AA1C98B653009C249A /* beans@2x.png in Resources */,
+				EAF607AC1C98B653009C249A /* eggs@2x.png in Resources */,
 				EA85A92D1C90CCA000F40889 /* Main.storyboard in Resources */,
-				EACDCFC41C9219CC0073F2B5 /* eggs@2x.png in Resources */,
-				EACDCFC51C9219CC0073F2B5 /* beans@2x.png in Resources */,
-				EACDCFC21C9219CC0073F2B5 /* peas@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
