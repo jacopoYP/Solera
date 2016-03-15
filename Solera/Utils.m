@@ -88,6 +88,10 @@
     }
 }
 
+/**
+ * This method is private because it's used only internally, but for a real app it should be public and improved accepting
+ * other typical network params like method, headers, etc
+ */
 -(void)getRequest:(NSString *)urlString withHandler:(void (^)(NSData *data, NSURLResponse *response, NSError *error))block {
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
