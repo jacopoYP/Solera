@@ -38,6 +38,16 @@
                ReferencedContainer = "container:Solera.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EAF607991C98AF18009C249A"
+               BuildableName = "SoleraUITests.xctest"
+               BlueprintName = "SoleraUITests"
+               ReferencedContainer = "container:Solera.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

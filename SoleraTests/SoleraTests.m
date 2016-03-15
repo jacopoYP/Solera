@@ -7,8 +7,13 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Utils.h"
+#import "Item.h"
+#import "Globals.h"
 
 @interface SoleraTests : XCTestCase
+
+@property (nonatomic, strong) NSMutableArray *itemsArray;
 
 @end
 
@@ -24,16 +29,34 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+//- (void)testExample {
+//    // This is an example of a functional test case.
+//    // Use XCTAssert and related functions to verify your tests produce the correct results.
+//}
+//
+//- (void)testPerformanceExample {
+//    // This is an example of a performance test case.
+//    [self measureBlock:^{
+//        // Put the code you want to measure the time of here.
+//    }];
+//}
+
+- (void)testLoadJSON {
+    self.itemsArray = [NSMutableArray new];
+    self.itemsArray = [[Utils sharedManager] loadLocalJson:JSON_ITEMS];
+    XCTAssertEqual(self.itemsArray.count, 4);
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testSum {
+    NSMutableArray *items = [NSMutableArray new];
+    Item *item = [Item new];
+    item.price = 1.1;
+    item.quantity = 2;
+    [items addObject:item];
+    
+    float total = [[Utils sharedManager] calculateTotalAmount:items forCurrencyRate:1.5];
+    XCTAssertEqualWithAccuracy(total, 3.3f, 0.001, @"");
+    
 }
 
 @end

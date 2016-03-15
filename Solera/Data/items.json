@@ -1,0 +1,28 @@
+[{
+	"title":"Peas",
+	"price": 0.95,
+	"description": "Price per bag",
+	"image": "peas.png",
+    "currency": "$"
+},
+{
+	"title":"Eggs",
+	"price": 2.10,
+	"description": "Price per dozen",
+	"image": "eggs.png",
+    "currency": "$"
+},
+{
+	"title":"Milk",
+	"price": 1.30,
+	"description": "Price per bottle",
+	"image": "milk.png",
+    "currency": "$"
+},
+{
+	"title":"Beans",
+	"price": 0.73,
+	"description": "Price per can",
+	"image": "beans.png",
+    "currency": "$"
+}]

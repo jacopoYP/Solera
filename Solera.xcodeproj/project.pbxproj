@@ -9,15 +9,35 @@
 /* Begin PBXBuildFile section */
 		EA85A9241C90CCA000F40889 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA85A9231C90CCA000F40889 /* main.m */; };
 		EA85A9271C90CCA000F40889 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA85A9261C90CCA000F40889 /* AppDelegate.m */; };
-		EA85A92A1C90CCA000F40889 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA85A9291C90CCA000F40889 /* ViewController.m */; };
 		EA85A92D1C90CCA000F40889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA85A92B1C90CCA000F40889 /* Main.storyboard */; };
 		EA85A92F1C90CCA000F40889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA85A92E1C90CCA000F40889 /* Assets.xcassets */; };
 		EA85A9321C90CCA000F40889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA85A9301C90CCA000F40889 /* LaunchScreen.storyboard */; };
 		EA85A93D1C90CCA000F40889 /* SoleraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA85A93C1C90CCA000F40889 /* SoleraTests.m */; };
+		EAA89C201C95BA1F002C54A9 /* BasketCaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA89C1F1C95BA1F002C54A9 /* BasketCaseCollectionViewCell.m */; };
+		EAA89C231C95EB30002C54A9 /* CheckoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA89C221C95EB30002C54A9 /* CheckoutTableViewCell.m */; };
+		EAAAC0011C94011E003C52AA /* CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAAC0001C94011E003C52AA /* CheckoutViewController.m */; };
+		EABD3E841C98848D00E3A8DE /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD3E801C98848D00E3A8DE /* Utils.m */; };
+		EABD3E851C98848D00E3A8DE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD3E831C98848D00E3A8DE /* Reachability.m */; };
+		EACDCFA91C91E2C80073F2B5 /* solera_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFA81C91E2C80073F2B5 /* solera_logo@2x.png */; };
+		EACDCFAC1C91E3690073F2B5 /* BasketCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACDCFAB1C91E3690073F2B5 /* BasketCaseViewController.m */; };
+		EACDCFAF1C91E6610073F2B5 /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFAE1C91E6610073F2B5 /* items.json */; };
+		EACDCFBA1C9207860073F2B5 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = EACDCFB91C9207860073F2B5 /* Item.m */; };
+		EACDCFC21C9219CC0073F2B5 /* peas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFBE1C9219CC0073F2B5 /* peas@2x.png */; };
+		EACDCFC31C9219CC0073F2B5 /* milk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFBF1C9219CC0073F2B5 /* milk@2x.png */; };
+		EACDCFC41C9219CC0073F2B5 /* eggs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFC01C9219CC0073F2B5 /* eggs@2x.png */; };
+		EACDCFC51C9219CC0073F2B5 /* beans@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDCFC11C9219CC0073F2B5 /* beans@2x.png */; };
+		EAF6079D1C98AF18009C249A /* SoleraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF6079C1C98AF18009C249A /* SoleraUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		EA85A9391C90CCA000F40889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA85A9171C90CCA000F40889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA85A91E1C90CCA000F40889;
+			remoteInfo = Solera;
+		};
+		EAF6079F1C98AF18009C249A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EA85A9171C90CCA000F40889 /* Project object */;
 			proxyType = 1;
@@ -31,8 +51,6 @@
 		EA85A9231C90CCA000F40889 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA85A9251C90CCA000F40889 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA85A9261C90CCA000F40889 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA85A9281C90CCA000F40889 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA85A9291C90CCA000F40889 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA85A92C1C90CCA000F40889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA85A92E1C90CCA000F40889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA85A9311C90CCA000F40889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +58,30 @@
 		EA85A9381C90CCA000F40889 /* SoleraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA85A93C1C90CCA000F40889 /* SoleraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoleraTests.m; sourceTree = "<group>"; };
 		EA85A93E1C90CCA000F40889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA89C1E1C95BA1F002C54A9 /* BasketCaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketCaseCollectionViewCell.h; path = Views/BasketCaseCollectionViewCell.h; sourceTree = "<group>"; };
+		EAA89C1F1C95BA1F002C54A9 /* BasketCaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketCaseCollectionViewCell.m; path = Views/BasketCaseCollectionViewCell.m; sourceTree = "<group>"; };
+		EAA89C211C95EB30002C54A9 /* CheckoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckoutTableViewCell.h; path = Views/CheckoutTableViewCell.h; sourceTree = "<group>"; };
+		EAA89C221C95EB30002C54A9 /* CheckoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckoutTableViewCell.m; path = Views/CheckoutTableViewCell.m; sourceTree = "<group>"; };
+		EAAABFFF1C94011E003C52AA /* CheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckoutViewController.h; path = ViewControllers/CheckoutViewController.h; sourceTree = "<group>"; };
+		EAAAC0001C94011E003C52AA /* CheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckoutViewController.m; path = ViewControllers/CheckoutViewController.m; sourceTree = "<group>"; };
+		EABD3E801C98848D00E3A8DE /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		EABD3E811C98848D00E3A8DE /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		EABD3E821C98848D00E3A8DE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EABD3E831C98848D00E3A8DE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EACDCFA81C91E2C80073F2B5 /* solera_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "solera_logo@2x.png"; path = "Images/solera_logo@2x.png"; sourceTree = "<group>"; };
+		EACDCFAA1C91E3690073F2B5 /* BasketCaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketCaseViewController.h; path = ViewControllers/BasketCaseViewController.h; sourceTree = "<group>"; };
+		EACDCFAB1C91E3690073F2B5 /* BasketCaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketCaseViewController.m; path = ViewControllers/BasketCaseViewController.m; sourceTree = "<group>"; };
+		EACDCFAE1C91E6610073F2B5 /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = items.json; path = Data/items.json; sourceTree = "<group>"; };
+		EACDCFB01C91E68E0073F2B5 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		EACDCFB81C9207860073F2B5 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = Models/Item.h; sourceTree = "<group>"; };
+		EACDCFB91C9207860073F2B5 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = Models/Item.m; sourceTree = "<group>"; };
+		EACDCFBE1C9219CC0073F2B5 /* peas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "peas@2x.png"; path = "Images/peas@2x.png"; sourceTree = "<group>"; };
+		EACDCFBF1C9219CC0073F2B5 /* milk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "milk@2x.png"; path = "Images/milk@2x.png"; sourceTree = "<group>"; };
+		EACDCFC01C9219CC0073F2B5 /* eggs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eggs@2x.png"; path = "Images/eggs@2x.png"; sourceTree = "<group>"; };
+		EACDCFC11C9219CC0073F2B5 /* beans@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "beans@2x.png"; path = "Images/beans@2x.png"; sourceTree = "<group>"; };
+		EAF6079A1C98AF18009C249A /* SoleraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF6079C1C98AF18009C249A /* SoleraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoleraUITests.m; sourceTree = "<group>"; };
+		EAF6079E1C98AF18009C249A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +99,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAF607971C98AF18009C249A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +114,7 @@
 			children = (
 				EA85A9211C90CCA000F40889 /* Solera */,
 				EA85A93B1C90CCA000F40889 /* SoleraTests */,
+				EAF6079B1C98AF18009C249A /* SoleraUITests */,
 				EA85A9201C90CCA000F40889 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +124,7 @@
 			children = (
 				EA85A91F1C90CCA000F40889 /* Solera.app */,
 				EA85A9381C90CCA000F40889 /* SoleraTests.xctest */,
+				EAF6079A1C98AF18009C249A /* SoleraUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,13 +132,15 @@
 		EA85A9211C90CCA000F40889 /* Solera */ = {
 			isa = PBXGroup;
 			children = (
+				EAAAC0031C940E0D003C52AA /* Storyboards */,
+				EAAABFFE1C9400F5003C52AA /* ViewControllers */,
+				EACDCFB71C92076C0073F2B5 /* Models */,
+				EAAAC0041C940E1D003C52AA /* Views */,
 				EA85A9251C90CCA000F40889 /* AppDelegate.h */,
 				EA85A9261C90CCA000F40889 /* AppDelegate.m */,
-				EA85A9281C90CCA000F40889 /* ViewController.h */,
-				EA85A9291C90CCA000F40889 /* ViewController.m */,
-				EA85A92B1C90CCA000F40889 /* Main.storyboard */,
+				EABD3E871C988CB100E3A8DE /* Utils */,
 				EA85A92E1C90CCA000F40889 /* Assets.xcassets */,
-				EA85A9301C90CCA000F40889 /* LaunchScreen.storyboard */,
+				EAAAC0021C940DFD003C52AA /* Resources */,
 				EA85A9331C90CCA000F40889 /* Info.plist */,
 				EA85A9221C90CCA000F40889 /* Supporting Files */,
 			);
@@ -109,6 +162,104 @@
 				EA85A93E1C90CCA000F40889 /* Info.plist */,
 			);
 			path = SoleraTests;
+			sourceTree = "<group>";
+		};
+		EAAABFFE1C9400F5003C52AA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EACDCFAA1C91E3690073F2B5 /* BasketCaseViewController.h */,
+				EACDCFAB1C91E3690073F2B5 /* BasketCaseViewController.m */,
+				EAAABFFF1C94011E003C52AA /* CheckoutViewController.h */,
+				EAAAC0001C94011E003C52AA /* CheckoutViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EAAAC0021C940DFD003C52AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EACDCFAD1C91E6560073F2B5 /* Data */,
+				EACDCFA51C91E2060073F2B5 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EAAAC0031C940E0D003C52AA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EA85A92B1C90CCA000F40889 /* Main.storyboard */,
+				EA85A9301C90CCA000F40889 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		EAAAC0041C940E1D003C52AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAA89C1E1C95BA1F002C54A9 /* BasketCaseCollectionViewCell.h */,
+				EAA89C1F1C95BA1F002C54A9 /* BasketCaseCollectionViewCell.m */,
+				EAA89C211C95EB30002C54A9 /* CheckoutTableViewCell.h */,
+				EAA89C221C95EB30002C54A9 /* CheckoutTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EABD3E861C98849D00E3A8DE /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				EABD3E821C98848D00E3A8DE /* Reachability.h */,
+				EABD3E831C98848D00E3A8DE /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		EABD3E871C988CB100E3A8DE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EABD3E861C98849D00E3A8DE /* Reachability */,
+				EABD3E811C98848D00E3A8DE /* Utils.h */,
+				EABD3E801C98848D00E3A8DE /* Utils.m */,
+				EACDCFB01C91E68E0073F2B5 /* Globals.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		EACDCFA51C91E2060073F2B5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EACDCFBE1C9219CC0073F2B5 /* peas@2x.png */,
+				EACDCFBF1C9219CC0073F2B5 /* milk@2x.png */,
+				EACDCFC01C9219CC0073F2B5 /* eggs@2x.png */,
+				EACDCFC11C9219CC0073F2B5 /* beans@2x.png */,
+				EACDCFA81C91E2C80073F2B5 /* solera_logo@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EACDCFAD1C91E6560073F2B5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EACDCFAE1C91E6610073F2B5 /* items.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		EACDCFB71C92076C0073F2B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EACDCFB81C9207860073F2B5 /* Item.h */,
+				EACDCFB91C9207860073F2B5 /* Item.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EAF6079B1C98AF18009C249A /* SoleraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF6079C1C98AF18009C249A /* SoleraUITests.m */,
+				EAF6079E1C98AF18009C249A /* Info.plist */,
+			);
+			path = SoleraUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +300,24 @@
 			productReference = EA85A9381C90CCA000F40889 /* SoleraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EAF607991C98AF18009C249A /* SoleraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF607A31C98AF18009C249A /* Build configuration list for PBXNativeTarget "SoleraUITests" */;
+			buildPhases = (
+				EAF607961C98AF18009C249A /* Sources */,
+				EAF607971C98AF18009C249A /* Frameworks */,
+				EAF607981C98AF18009C249A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF607A01C98AF18009C249A /* PBXTargetDependency */,
+			);
+			name = SoleraUITests;
+			productName = SoleraUITests;
+			productReference = EAF6079A1C98AF18009C249A /* SoleraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,8 +329,13 @@
 				TargetAttributes = {
 					EA85A91E1C90CCA000F40889 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = QP297Z35MZ;
 					};
 					EA85A9371C90CCA000F40889 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EA85A91E1C90CCA000F40889;
+					};
+					EAF607991C98AF18009C249A = {
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = EA85A91E1C90CCA000F40889;
 					};
@@ -182,6 +356,7 @@
 			targets = (
 				EA85A91E1C90CCA000F40889 /* Solera */,
 				EA85A9371C90CCA000F40889 /* SoleraTests */,
+				EAF607991C98AF18009C249A /* SoleraUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,12 +367,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA85A9321C90CCA000F40889 /* LaunchScreen.storyboard in Resources */,
+				EACDCFC31C9219CC0073F2B5 /* milk@2x.png in Resources */,
+				EACDCFA91C91E2C80073F2B5 /* solera_logo@2x.png in Resources */,
+				EACDCFAF1C91E6610073F2B5 /* items.json in Resources */,
 				EA85A92F1C90CCA000F40889 /* Assets.xcassets in Resources */,
 				EA85A92D1C90CCA000F40889 /* Main.storyboard in Resources */,
+				EACDCFC41C9219CC0073F2B5 /* eggs@2x.png in Resources */,
+				EACDCFC51C9219CC0073F2B5 /* beans@2x.png in Resources */,
+				EACDCFC21C9219CC0073F2B5 /* peas@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EA85A9361C90CCA000F40889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF607981C98AF18009C249A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,8 +399,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA85A92A1C90CCA000F40889 /* ViewController.m in Sources */,
+				EACDCFBA1C9207860073F2B5 /* Item.m in Sources */,
+				EAAAC0011C94011E003C52AA /* CheckoutViewController.m in Sources */,
 				EA85A9271C90CCA000F40889 /* AppDelegate.m in Sources */,
+				EABD3E841C98848D00E3A8DE /* Utils.m in Sources */,
+				EAA89C231C95EB30002C54A9 /* CheckoutTableViewCell.m in Sources */,
+				EAA89C201C95BA1F002C54A9 /* BasketCaseCollectionViewCell.m in Sources */,
+				EACDCFAC1C91E3690073F2B5 /* BasketCaseViewController.m in Sources */,
+				EABD3E851C98848D00E3A8DE /* Reachability.m in Sources */,
 				EA85A9241C90CCA000F40889 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +419,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAF607961C98AF18009C249A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF6079D1C98AF18009C249A /* SoleraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +434,11 @@
 			isa = PBXTargetDependency;
 			target = EA85A91E1C90CCA000F40889 /* Solera */;
 			targetProxy = EA85A9391C90CCA000F40889 /* PBXContainerItemProxy */;
+		};
+		EAF607A01C98AF18009C249A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA85A91E1C90CCA000F40889 /* Solera */;
+			targetProxy = EAF6079F1C98AF18009C249A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -341,10 +548,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Solera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacopo.dev.Solera;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpers.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,10 +563,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Solera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacopo.dev.Solera;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpers.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -383,6 +598,30 @@
 			};
 			name = Release;
 		};
+		EAF607A11C98AF18009C249A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoleraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacopo.dev.SoleraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Solera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EAF607A21C98AF18009C249A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoleraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacopo.dev.SoleraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Solera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -402,12 +641,22 @@
 				EA85A9431C90CCA000F40889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA85A9441C90CCA000F40889 /* Build configuration list for PBXNativeTarget "SoleraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA85A9451C90CCA000F40889 /* Debug */,
 				EA85A9461C90CCA000F40889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF607A31C98AF18009C249A /* Build configuration list for PBXNativeTarget "SoleraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF607A11C98AF18009C249A /* Debug */,
+				EAF607A21C98AF18009C249A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
